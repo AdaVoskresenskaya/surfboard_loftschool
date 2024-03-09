@@ -7,7 +7,8 @@ $yellow-hover: #FFD517;
 $grey: #666666;
 $black: #292929;
 
-
+//z-indexes
+$z-fixed-menu: 100;
 
 //normaloze
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
@@ -29,3 +30,4 @@ $black: #292929;
 @import './bloks/order_section';
 @import './bloks/form';
 @import './bloks/radio';
+@import './bloks/fixed-menu';
