@@ -303,7 +303,7 @@ button {
   object-fit: cover; }
 
 .order-section {
-  background: url("../../img/order.png") no-repeat center;
+  background: url("../img/order.png") no-repeat center;
   background-size: cover; }
 
 .form {
@@ -360,7 +360,7 @@ button {
   .radio--checkbox .radio__visible {
     border-radius: 5px; }
     .radio--checkbox .radio__visible:before {
-      background: url(../../img/icons/checkmark.png) center no-repeat; }
+      background: url(../img/icons/checkmark.png) center no-repeat; }
 
 .radio__elem {
   display: none; }
