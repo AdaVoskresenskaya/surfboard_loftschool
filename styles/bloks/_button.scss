@@ -5,13 +5,26 @@
   text-transform: uppercase;
   border-radius: 100px;
   line-height: 1;
+  border: none;
 
   &--yellow {
     background: $yellow;
     color: #000;
+
+
+    &:hover {
+      background: $yellow-hover;
+    }
   }
 
-  &:hover {
-    background: $yellow-hover;
+  &--transparent {
+    color: #fff;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 18px;
+
+    &:hover {
+      color: $yellow-hover;
+    }
   }
 }
