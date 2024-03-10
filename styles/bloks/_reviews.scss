@@ -7,7 +7,7 @@
   display: flex;
 }
 
-.reviews_avatar {
+.reviews__avatar {
   width: 253px;
   height: 264px;
 }
@@ -21,13 +21,14 @@
 .reviews__content {
   flex: 1;
   margin-left: 40px;
+  padding-top: 25px;
 }
 
 .reviews__title {
   font-size: 27px;
   font-weight: 700;
   margin-bottom: 10px;
-  padding-top: 25px;
+  // padding-top: 25px;
   color: #000;
 }
 
