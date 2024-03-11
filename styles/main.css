@@ -199,7 +199,8 @@ button {
   padding: 0 2%;
   position: relative; }
   .benefits__item:before {
-    content: url("../../img/separator.png");
+    content: ("");
+    background: url("../img/separator.png");
     position: absolute;
     top: 50px;
     right: 0;
@@ -244,7 +245,7 @@ button {
 .reviews__display-inner {
   display: flex; }
 
-.reviews_avatar {
+.reviews__avatar {
   width: 253px;
   height: 264px; }
 
@@ -255,13 +256,13 @@ button {
 
 .reviews__content {
   flex: 1;
-  margin-left: 40px; }
+  margin-left: 40px;
+  padding-top: 25px; }
 
 .reviews__title {
   font-size: 27px;
   font-weight: 700;
   margin-bottom: 10px;
-  padding-top: 25px;
   color: #000; }
 
 .reviews__text {
@@ -318,6 +319,8 @@ button {
 .form__row {
   display: flex;
   margin-bottom: 10px; }
+  .form__row:last-child {
+    margin-bottom: 0; }
 
 .form__block {
   flex: 1;
@@ -344,7 +347,8 @@ button {
 
 .form__controls {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 20px; }
 
 .form__buttons {
   margin-top: 20px; }
@@ -353,8 +357,7 @@ button {
   display: flex;
   cursor: pointer;
   user-select: none;
-  margin-right: 20px;
-  margin-bottom: 20px; }
+  margin-right: 20px; }
   .radio:last-child {
     margin-right: 0; }
   .radio--checkbox .radio__visible {
@@ -396,6 +399,8 @@ button {
 
 .fixed-menu__item {
   margin-bottom: 5px; }
+  .fixed-menu__item:last-child {
+    margin-bottom: 0; }
   .fixed-menu__item--active .fixed-menu__link {
     border-color: #fff; }
 
