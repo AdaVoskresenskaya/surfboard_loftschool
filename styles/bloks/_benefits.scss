@@ -8,7 +8,8 @@
   position: relative;
 
   &:before {
-    content: url('../img/separator.png');
+    content: url('');
+    background: url('../img/separator.png');
     position: absolute;
     top: 50px;
     right: 0;
