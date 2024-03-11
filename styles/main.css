@@ -176,7 +176,7 @@ button {
 .section__title {
   font-size: 48px;
   font-weight: 700;
-  color: blue;
+  color: #000;
   margin-bottom: 60px;
   text-align: center;
   text-transform: uppercase; }
@@ -199,8 +199,7 @@ button {
   padding: 0 2%;
   position: relative; }
   .benefits__item:before {
-    content: url("");
-    background: url("../img/separator.png");
+    content: url("../img/separator.png");
     position: absolute;
     top: 50px;
     right: 0;
