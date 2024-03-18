@@ -261,6 +261,9 @@ button {
     top: 2.7777777778rem;
     right: 0;
     transform: translateX(50%); }
+    @media screen and (max-width: 768px) {
+      .benefits__item:before {
+        display: none; } }
   .benefits__item:first-child {
     padding-left: 0; }
   .benefits__item:last-child {
