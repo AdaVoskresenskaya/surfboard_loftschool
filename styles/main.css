@@ -72,9 +72,9 @@ button {
   background: url("../img/bg.png") no-repeat center;
   background-size: cover;
   height: 100vh;
-  min-height: rem(650px);
+  min-height: 36.1111111111rem;
   color: #fff;
-  padding: rem(17px) 0 rem(60px); }
+  padding: 0.9444444444rem 0 3.3333333333rem; }
 
 .hero__container {
   display: flex;
@@ -83,15 +83,15 @@ button {
   height: 100%; }
 
 .hero__main-title {
-  font-size: rem(48px);
+  font-size: 2.6666666667rem;
   line-height: 1.1;
   font-weight: bold;
-  margin-bottom: rem(30px);
+  margin-bottom: 1.6666666667rem;
   text-transform: uppercase; }
 
 .hero__title-desc {
-  font-size: rem(21px);
-  margin-bottom: rem(50px);
+  font-size: 1.1666666667rem;
+  margin-bottom: 2.7777777778rem;
   padding-right: 10%; }
 
 .hero__title-section {
@@ -107,19 +107,19 @@ button {
   align-items: center; }
 
 .menu__item {
-  margin-right: rem(25px); }
+  margin-right: 1.3888888889rem; }
   .menu__item:last-child {
     margin-right: 0; }
 
 .phone-number {
-  font-size: rem(22px);
+  font-size: 1.2222222222rem;
   display: flex;
   align-items: center; }
 
 .phone-number__icon-img {
-  width: rem(14px);
-  height: rem(13px);
-  margin-right: rem(5px); }
+  width: 0.7777777778rem;
+  height: 0.7222222222rem;
+  margin-right: 0.2777777778rem; }
 
 .menu__link {
   white-space: nowrap; }
@@ -129,7 +129,7 @@ button {
   flex-direction: row; }
 
 .feature__item {
-  margin-right: rem(35px); }
+  margin-right: 1.9444444444rem; }
   .feature__item:last-child {
     margin-right: 0; }
 
@@ -137,21 +137,21 @@ button {
   display: flex; }
 
 .feature__icon {
-  width: rem(41px);
-  height: rem(41px);
-  margin-right: rem(10px);
+  width: 2.2777777778rem;
+  height: 2.2777777778rem;
+  margin-right: 0.5555555556rem;
   color: #fff; }
 
 .feature__text {
-  font-size: rem(16px);
-  max-width: rem(90px); }
+  font-size: 0.8888888889rem;
+  max-width: 5rem; }
 
 .button {
-  font-size: rem(16px);
+  font-size: 0.8888888889rem;
   font-weight: bold;
-  padding: rem(21px) rem(41px);
+  padding: 1.1666666667rem 2.2777777778rem;
   text-transform: uppercase;
-  border-radius: rem(100px);
+  border-radius: 5.5555555556rem;
   line-height: 1;
   border: none; }
   .button--yellow {
@@ -163,13 +163,13 @@ button {
     color: #fff;
     font-weight: 400;
     text-transform: none;
-    font-size: rem(18px); }
+    font-size: 1rem; }
     .button--transparent:hover {
       color: #FFD517; }
 
 .section {
   height: 100vh;
-  min-height: rem(650px);
+  min-height: 36.1111111111rem;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -179,10 +179,10 @@ button {
       color: inherit; }
 
 .section__title {
-  font-size: rem(48px);
+  font-size: 2.6666666667rem;
   font-weight: 700;
   color: #000;
-  margin-bottom: rem(60px);
+  margin-bottom: 3.3333333333rem;
   text-align: center;
   text-transform: uppercase; }
 
@@ -190,11 +190,11 @@ button {
   text-align: center; }
 
 .headline__title {
-  margin-bottom: rem(10px); }
+  margin-bottom: 0.5555555556rem; }
 
 .headline__subtitle {
   padding: 0 27%;
-  margin-bottom: rem(50px); }
+  margin-bottom: 2.7777777778rem; }
 
 .benefits {
   display: flex; }
@@ -206,7 +206,7 @@ button {
   .benefits__item:before {
     content: url("../img/separator.png");
     position: absolute;
-    top: rem(50px);
+    top: 2.7777777778rem;
     right: 0;
     transform: translateX(50%); }
   .benefits__item:first-child {
@@ -221,16 +221,16 @@ button {
 
 .benefit__image-wrapper {
   display: inline-flex;
-  width: rem(128px);
-  height: rem(128px);
+  width: 7.1111111111rem;
+  height: 7.1111111111rem;
   position: relative;
   background: #F2F5F4;
   border-radius: 50%;
   overflow: hidden; }
 
 .benefit__icon {
-  width: rem(68px);
-  height: rem(68px);
+  width: 3.7777777778rem;
+  height: 3.7777777778rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -238,20 +238,20 @@ button {
 
 .benefit__title {
   color: #000;
-  font-size: rem(27px);
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: rem(20px); }
+  margin-bottom: 1.1111111111rem; }
 
 .reviews__display {
   background: #F8FAF9;
-  padding: rem(42px); }
+  padding: 2.3333333333rem; }
 
 .reviews__display-inner {
   display: flex; }
 
 .reviews__avatar {
-  width: rem(253px);
-  height: rem(264px); }
+  width: 14.0555555556rem;
+  height: 14.6666666667rem; }
 
 .reviews__avatar-img {
   object-fit: cover;
@@ -260,33 +260,33 @@ button {
 
 .reviews__content {
   flex: 1;
-  margin-left: rem(40px);
-  padding-top: rem(25px); }
+  margin-left: 2.2222222222rem;
+  padding-top: 1.3888888889rem; }
 
 .reviews__title {
-  font-size: rem(27px);
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: rem(10px);
+  margin-bottom: 0.5555555556rem;
   color: #000; }
 
 .reviews__text {
-  margin-bottom: rem(10px);
-  padding-right: rem(85px); }
+  margin-bottom: 0.5555555556rem;
+  padding-right: 4.7222222222rem; }
 
 .reviews__author {
-  font-size: rem(18px);
+  font-size: 1rem;
   font-weight: 500;
   color: #000; }
 
 .reviews__switcher {
   display: flex;
   justify-content: center;
-  margin-top: rem(20px); }
+  margin-top: 1.1111111111rem; }
 
 .interactive-avatar {
-  width: rem(80px);
-  height: rem(80px);
-  border: rem(6px) solid transparent;
+  width: 4.4444444444rem;
+  height: 4.4444444444rem;
+  border: 0.3333333333rem solid transparent;
   border-radius: 50%;
   overflow: hidden;
   position: relative; }
@@ -316,56 +316,56 @@ button {
 
 .form__col {
   flex: 1;
-  margin-right: rem(25px); }
+  margin-right: 1.3888888889rem; }
   .form__col:last-child {
     margin-right: 0; }
 
 .form__row {
   display: flex;
-  margin-bottom: rem(10px); }
+  margin-bottom: 0.5555555556rem; }
   .form__row:last-child {
     margin-bottom: 0; }
 
 .form__block {
   flex: 1;
-  margin-right: rem(20px); }
+  margin-right: 1.1111111111rem; }
   .form__block:last-child {
     margin-right: 0; }
 
 .form__input {
   width: 100%;
   border: none;
-  padding: rem(20px) rem(15px);
-  border-radius: rem(5px);
-  border: solid rem(3px) transparent;
+  padding: 1.1111111111rem 0.8333333333rem;
+  border-radius: 0.2777777778rem;
+  border: solid 0.1666666667rem transparent;
   font-family: Open Sans;
-  font-size: rem(14px);
+  font-size: 0.7777777778rem;
   font-weight: 400; }
   .form__input:focus {
     border-color: #FEDB3F;
     outline: none; }
   .form__input--textarea {
-    height: rem(152px);
+    height: 8.4444444444rem;
     resize: none;
-    margin-bottom: rem(20px); }
+    margin-bottom: 1.1111111111rem; }
 
 .form__controls {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: rem(20px); }
+  margin-bottom: 1.1111111111rem; }
 
 .form__buttons {
-  margin-top: rem(20px); }
+  margin-top: 1.1111111111rem; }
 
 .radio {
   display: flex;
   cursor: pointer;
   user-select: none;
-  margin-right: rem(20px); }
+  margin-right: 1.1111111111rem; }
   .radio:last-child {
     margin-right: 0; }
   .radio--checkbox .radio__visible {
-    border-radius: rem(5px); }
+    border-radius: 0.2777777778rem; }
     .radio--checkbox .radio__visible:before {
       background: url(../img/icons/checkmark.png) center no-repeat; }
 
@@ -375,15 +375,15 @@ button {
     display: block; }
 
 .radio__visible {
-  width: rem(25px);
-  height: rem(25px);
+  width: 1.3888888889rem;
+  height: 1.3888888889rem;
   position: relative;
   border-radius: 50%;
   background: #fff; }
   .radio__visible:before {
     content: "";
-    width: rem(13px);
-    height: rem(13px);
+    width: 0.7222222222rem;
+    height: 0.7222222222rem;
     background: #FEDB3F;
     border-radius: 50%;
     position: absolute;
@@ -393,7 +393,7 @@ button {
     display: none; }
 
 .radio__title {
-  margin-left: rem(10px); }
+  margin-left: 0.5555555556rem; }
 
 .fixed-menu {
   position: fixed;
@@ -402,24 +402,24 @@ button {
   z-index: 100; }
 
 .fixed-menu__item {
-  margin-bottom: rem(5px); }
+  margin-bottom: 0.2777777778rem; }
   .fixed-menu__item:last-child {
     margin-bottom: 0; }
   .fixed-menu__item--active .fixed-menu__link {
     border-color: #fff; }
 
 .fixed-menu__link {
-  width: rem(16px);
-  height: rem(16px);
+  width: 0.8888888889rem;
+  height: 0.8888888889rem;
   border-radius: 50%;
-  border: rem(1px) solid transparent;
+  border: 0.0555555556rem solid transparent;
   display: block;
   position: relative; }
   .fixed-menu__link:before {
     content: "";
     display: block;
-    width: rem(6px);
-    height: rem(6px);
+    width: 0.3333333333rem;
+    height: 0.3333333333rem;
     border-radius: 50%;
     background: #fff;
     position: absolute;
@@ -434,7 +434,7 @@ button {
   flex-direction: column;
   justify-content: space-between;
   display: none; }
-  @media screen and (max-width: rem(768px)) {
+  @media screen and (max-width: 768px) {
     .hamburger {
       display: inline-flex; } }
 

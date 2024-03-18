@@ -7,10 +7,13 @@ $yellow-hover: #FFD517;
 $grey: #666666;
 $black: #292929;
 
-//breakpoints
-$tablets :rem(768px);
-$phones: rem(480px);
 
+
+//breakpoints
+$tablets :768px;
+$phones: 480px;
+
+@import 'media';
 //z-indexes
 $z-fixed-menu: 100;
 
@@ -35,5 +38,4 @@ $z-fixed-menu: 100;
 @import './bloks/form';
 @import './bloks/radio';
 @import './bloks/fixed-menu';
-@import 'media';
 @import './bloks/hamburger';
