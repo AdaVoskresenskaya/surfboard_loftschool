@@ -10,10 +10,11 @@ $black: #292929;
 
 
 //breakpoints
-$tablets :768px;
-$phones: 480px;
+$tablets: 768px;
+$phone: 480px;
 
 @import 'media';
+
 //z-indexes
 $z-fixed-menu: 100;
 

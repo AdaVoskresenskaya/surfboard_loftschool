@@ -1,13 +1,14 @@
 html {
   font-size: $baseFontSize;
 
-  // @include tablets {
-  //   font-size: $baseFontSize - rem(1px);
-  // }
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
 
-  // @include phone {
-  //   font-size: $baseFontSize - rem(2px);
-  // }
+  @include phone {
+    font-size: $baseFontSize - 2px;
+  
+}
 }
 
 html,
@@ -91,10 +92,3 @@ button {
   cursor: pointer;
   background: transparent;
 }
-
-
-
-
-
-
-

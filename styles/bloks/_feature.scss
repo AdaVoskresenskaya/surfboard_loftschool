@@ -13,3 +13,9 @@
   font-size: rem(16px);
   max-width: rem(90px);
 }
+
+.hero__features-section {
+  @include tablets {
+    display: none;
+  }
+}
