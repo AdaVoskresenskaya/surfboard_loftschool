@@ -1,11 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700&display=swap");
+html {
+  font-size: 18px; }
+
 html,
 body {
   height: 100%; }
 
 body {
-  font-size: 18px;
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
   line-height: 1.42;
   position: relative;
@@ -14,12 +16,12 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  min-width: 960px;
   min-height: 100%;
   overflow: hidden; }
 
 .container {
-  width: 940px;
+  width: 95%;
+  max-width: 940px;
   margin: 0 auto; }
 
 h1,
@@ -70,9 +72,9 @@ button {
   background: url("../img/bg.png") no-repeat center;
   background-size: cover;
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   color: #fff;
-  padding: 17px 0 60px; }
+  padding: rem(17px) 0 rem(60px); }
 
 .hero__container {
   display: flex;
@@ -81,15 +83,15 @@ button {
   height: 100%; }
 
 .hero__main-title {
-  font-size: 48px;
+  font-size: rem(48px);
   line-height: 1.1;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: rem(30px);
   text-transform: uppercase; }
 
 .hero__title-desc {
-  font-size: 21px;
-  margin-bottom: 50px;
+  font-size: rem(21px);
+  margin-bottom: rem(50px);
   padding-right: 10%; }
 
 .hero__title-section {
@@ -105,26 +107,29 @@ button {
   align-items: center; }
 
 .menu__item {
-  margin-right: 25px; }
+  margin-right: rem(25px); }
   .menu__item:last-child {
     margin-right: 0; }
 
 .phone-number {
-  font-size: 22px;
+  font-size: rem(22px);
   display: flex;
   align-items: center; }
 
 .phone-number__icon-img {
-  width: 14px;
-  height: 13px;
-  margin-right: 5px; }
+  width: rem(14px);
+  height: rem(13px);
+  margin-right: rem(5px); }
+
+.menu__link {
+  white-space: nowrap; }
 
 .features {
   display: flex;
   flex-direction: row; }
 
 .feature__item {
-  margin-right: 35px; }
+  margin-right: rem(35px); }
   .feature__item:last-child {
     margin-right: 0; }
 
@@ -132,21 +137,21 @@ button {
   display: flex; }
 
 .feature__icon {
-  width: 41px;
-  height: 41px;
-  margin-right: 10px;
+  width: rem(41px);
+  height: rem(41px);
+  margin-right: rem(10px);
   color: #fff; }
 
 .feature__text {
-  font-size: 16px;
-  max-width: 90px; }
+  font-size: rem(16px);
+  max-width: rem(90px); }
 
 .button {
-  font-size: 16px;
+  font-size: rem(16px);
   font-weight: bold;
-  padding: 21px 41px;
+  padding: rem(21px) rem(41px);
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: rem(100px);
   line-height: 1;
   border: none; }
   .button--yellow {
@@ -158,13 +163,13 @@ button {
     color: #fff;
     font-weight: 400;
     text-transform: none;
-    font-size: 18px; }
+    font-size: rem(18px); }
     .button--transparent:hover {
       color: #FFD517; }
 
 .section {
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -174,10 +179,10 @@ button {
       color: inherit; }
 
 .section__title {
-  font-size: 48px;
+  font-size: rem(48px);
   font-weight: 700;
   color: #000;
-  margin-bottom: 60px;
+  margin-bottom: rem(60px);
   text-align: center;
   text-transform: uppercase; }
 
@@ -185,11 +190,11 @@ button {
   text-align: center; }
 
 .headline__title {
-  margin-bottom: 10px; }
+  margin-bottom: rem(10px); }
 
 .headline__subtitle {
   padding: 0 27%;
-  margin-bottom: 50px; }
+  margin-bottom: rem(50px); }
 
 .benefits {
   display: flex; }
@@ -201,7 +206,7 @@ button {
   .benefits__item:before {
     content: url("../img/separator.png");
     position: absolute;
-    top: 50px;
+    top: rem(50px);
     right: 0;
     transform: translateX(50%); }
   .benefits__item:first-child {
@@ -216,16 +221,16 @@ button {
 
 .benefit__image-wrapper {
   display: inline-flex;
-  width: 128px;
-  height: 128px;
+  width: rem(128px);
+  height: rem(128px);
   position: relative;
   background: #F2F5F4;
   border-radius: 50%;
   overflow: hidden; }
 
 .benefit__icon {
-  width: 68px;
-  height: 68px;
+  width: rem(68px);
+  height: rem(68px);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -233,20 +238,20 @@ button {
 
 .benefit__title {
   color: #000;
-  font-size: 27px;
+  font-size: rem(27px);
   font-weight: 700;
-  margin-bottom: 20px; }
+  margin-bottom: rem(20px); }
 
 .reviews__display {
   background: #F8FAF9;
-  padding: 42px; }
+  padding: rem(42px); }
 
 .reviews__display-inner {
   display: flex; }
 
 .reviews__avatar {
-  width: 253px;
-  height: 264px; }
+  width: rem(253px);
+  height: rem(264px); }
 
 .reviews__avatar-img {
   object-fit: cover;
@@ -255,33 +260,33 @@ button {
 
 .reviews__content {
   flex: 1;
-  margin-left: 40px;
-  padding-top: 25px; }
+  margin-left: rem(40px);
+  padding-top: rem(25px); }
 
 .reviews__title {
-  font-size: 27px;
+  font-size: rem(27px);
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: rem(10px);
   color: #000; }
 
 .reviews__text {
-  margin-bottom: 10px;
-  padding-right: 85px; }
+  margin-bottom: rem(10px);
+  padding-right: rem(85px); }
 
 .reviews__author {
-  font-size: 18px;
+  font-size: rem(18px);
   font-weight: 500;
   color: #000; }
 
 .reviews__switcher {
   display: flex;
   justify-content: center;
-  margin-top: 20px; }
+  margin-top: rem(20px); }
 
 .interactive-avatar {
-  width: 80px;
-  height: 80px;
-  border: 6px solid transparent;
+  width: rem(80px);
+  height: rem(80px);
+  border: rem(6px) solid transparent;
   border-radius: 50%;
   overflow: hidden;
   position: relative; }
@@ -311,56 +316,56 @@ button {
 
 .form__col {
   flex: 1;
-  margin-right: 25px; }
+  margin-right: rem(25px); }
   .form__col:last-child {
     margin-right: 0; }
 
 .form__row {
   display: flex;
-  margin-bottom: 10px; }
+  margin-bottom: rem(10px); }
   .form__row:last-child {
     margin-bottom: 0; }
 
 .form__block {
   flex: 1;
-  margin-right: 20px; }
+  margin-right: rem(20px); }
   .form__block:last-child {
     margin-right: 0; }
 
 .form__input {
   width: 100%;
   border: none;
-  padding: 20px 15px;
-  border-radius: 5px;
-  border: solid 3px transparent;
+  padding: rem(20px) rem(15px);
+  border-radius: rem(5px);
+  border: solid rem(3px) transparent;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 400; }
   .form__input:focus {
     border-color: #FEDB3F;
     outline: none; }
   .form__input--textarea {
-    height: 152px;
+    height: rem(152px);
     resize: none;
-    margin-bottom: 20px; }
+    margin-bottom: rem(20px); }
 
 .form__controls {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px; }
+  margin-bottom: rem(20px); }
 
 .form__buttons {
-  margin-top: 20px; }
+  margin-top: rem(20px); }
 
 .radio {
   display: flex;
   cursor: pointer;
   user-select: none;
-  margin-right: 20px; }
+  margin-right: rem(20px); }
   .radio:last-child {
     margin-right: 0; }
   .radio--checkbox .radio__visible {
-    border-radius: 5px; }
+    border-radius: rem(5px); }
     .radio--checkbox .radio__visible:before {
       background: url(../img/icons/checkmark.png) center no-repeat; }
 
@@ -370,15 +375,15 @@ button {
     display: block; }
 
 .radio__visible {
-  width: 25px;
-  height: 25px;
+  width: rem(25px);
+  height: rem(25px);
   position: relative;
   border-radius: 50%;
   background: #fff; }
   .radio__visible:before {
     content: "";
-    width: 13px;
-    height: 13px;
+    width: rem(13px);
+    height: rem(13px);
     background: #FEDB3F;
     border-radius: 50%;
     position: absolute;
@@ -388,7 +393,7 @@ button {
     display: none; }
 
 .radio__title {
-  margin-left: 10px; }
+  margin-left: rem(10px); }
 
 .fixed-menu {
   position: fixed;
@@ -397,29 +402,46 @@ button {
   z-index: 100; }
 
 .fixed-menu__item {
-  margin-bottom: 5px; }
+  margin-bottom: rem(5px); }
   .fixed-menu__item:last-child {
     margin-bottom: 0; }
   .fixed-menu__item--active .fixed-menu__link {
     border-color: #fff; }
 
 .fixed-menu__link {
-  width: 16px;
-  height: 16px;
+  width: rem(16px);
+  height: rem(16px);
   border-radius: 50%;
-  border: 1px solid transparent;
+  border: rem(1px) solid transparent;
   display: block;
   position: relative; }
   .fixed-menu__link:before {
     content: "";
     display: block;
-    width: 6px;
-    height: 6px;
+    width: rem(6px);
+    height: rem(6px);
     border-radius: 50%;
     background: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.hamburger {
+  width: 1.3333333333rem;
+  height: 1.1111111111rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none; }
+  @media screen and (max-width: rem(768px)) {
+    .hamburger {
+      display: inline-flex; } }
+
+.hamburger__plank {
+  display: block;
+  background: white;
+  height: 0.2222222222rem;
+  border-radius: 0.5555555556rem; }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@
 }
 
 .feature__item {
-  margin-right: 35px;
+  margin-right: rem(35px);
 
   &:last-child {
     margin-right: 0;
