@@ -30,6 +30,9 @@
   @include tablets {
     padding: 0 25%;
   }
+  @include phone {
+    padding: 0 10%;
+  }
 }
 
 .hero__title-section {
