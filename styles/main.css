@@ -250,14 +250,24 @@ button {
 .headline__subtitle {
   padding: 0 27%;
   margin-bottom: 2.7777777778rem; }
+  @media screen and (max-width: 480px) {
+    .headline__subtitle {
+      padding: 0 6%; } }
 
 .benefits {
   display: flex; }
+  @media screen and (max-width: 480px) {
+    .benefits {
+      flex-direction: column; } }
 
 .benefits__item {
   flex: 1;
   padding: 0 2%;
   position: relative; }
+  @media screen and (max-width: 480px) {
+    .benefits__item {
+      padding: 0;
+      margin-bottom: 1.0555555556rem; } }
   .benefits__item:before {
     content: url("../img/separator.png");
     position: absolute;
@@ -276,6 +286,10 @@ button {
 
 .benefit {
   text-align: center; }
+  @media screen and (max-width: 480px) {
+    .benefit {
+      display: flex;
+      text-align: left; } }
 
 .benefit__image-wrapper {
   display: inline-flex;
@@ -299,6 +313,10 @@ button {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.1111111111rem; }
+
+@media screen and (max-width: 480px) {
+  .benefit__img {
+    margin-right: 1.1111111111rem; } }
 
 .reviews__display {
   background: #F8FAF9;
@@ -391,6 +409,9 @@ button {
     .form {
       flex-direction: column;
       padding: 0 18%; } }
+  @media screen and (max-width: 480px) {
+    .form {
+      padding: 0; } }
 
 .form__col {
   flex: 1;
@@ -440,6 +461,9 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1.1111111111rem; }
+  @media screen and (max-width: 480px) {
+    .form__controls {
+      justify-content: center; } }
 
 .form__buttons {
   margin-top: 1.1111111111rem; }
