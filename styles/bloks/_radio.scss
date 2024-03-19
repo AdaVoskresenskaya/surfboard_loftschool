@@ -5,6 +5,10 @@
   margin-right: rem(20px);
   // margin-bottom: rem(20px);
 
+  @include phone {
+    margin-bottom: rem(10px);
+  }
+
   &:last-child {
     margin-right: 0;
   }

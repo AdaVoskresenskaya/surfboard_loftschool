@@ -478,6 +478,9 @@ button {
   cursor: pointer;
   user-select: none;
   margin-right: 1.1111111111rem; }
+  @media screen and (max-width: 480px) {
+    .radio {
+      margin-bottom: 0.5555555556rem; } }
   .radio:last-child {
     margin-right: 0; }
   .radio--checkbox .radio__visible {
@@ -565,5 +568,86 @@ button {
   background: white;
   height: 4px;
   border-radius: 10px; }
+
+.map {
+  background: url(/img/map.png) center no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100vw; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.2777777778rem 0;
+  background: #fff; }
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  @media screen and (max-width: 480px) {
+    .footer__container {
+      flex-direction: column; } }
+
+.contacts {
+  font-style: normal;
+  font-size: 1.1666666667rem;
+  color: #000; }
+  @media screen and (max-width: 480px) {
+    .contacts {
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+
+.socials {
+  margin-right: 74px; }
+
+.socials__item {
+  display: inline-block;
+  margin-right: 6px; }
+
+.socials__item:last-child {
+  margin-right: 0; }
+
+.socials__link-vk {
+  display: block;
+  background: url(../../img/icons/css_sprites.png) -10px -10px;
+  width: 36px;
+  height: 36px;
+  position: relative; }
+
+.socials__link-vk:hover:before {
+  opacity: 1; }
+
+.socials__link-vk:hover:after {
+  opacity: 0; }
+
+.socials__link-vk:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../../img/icons/css_sprites.png) -10px -10px;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .3s; }
+
+.socials__link-vk:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../../img/icons/css_sprites.png) -66px -10px;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: .3s; }
 
 /*# sourceMappingURL=main.css.map */
