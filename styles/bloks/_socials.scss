@@ -1,3 +1,7 @@
+.socials {
+  display: flex;
+  align-items: center;
+}
 
 .socials__item {
   display: inline-flex;
@@ -9,7 +13,6 @@
   margin-right: 0;
 }
 
-
 .socials__link {
   display: flex;
   width: rem(20px);
@@ -17,5 +20,9 @@
 }
 
 .social-link__svg:hover {
- fill: #000; 
+  fill: #000;
+}
+
+.social-link__vk {
+  margin-top: rem(5px);
 }

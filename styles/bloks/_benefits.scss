@@ -36,6 +36,10 @@
   &:last-child {
     padding-right: 0;
 
+    @include phone{
+      margin-bottom: 0;
+    }
+
     &:before {
       display: none;
     }
