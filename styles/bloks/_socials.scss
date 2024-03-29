@@ -19,6 +19,10 @@
   height: rem(20px);
 }
 
+.social-link__svg {
+  fill: #B3B3B3;
+}
+
 .social-link__svg:hover * {
   fill: #000;
   transition: 0.3s;

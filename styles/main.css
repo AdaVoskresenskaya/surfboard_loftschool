@@ -626,6 +626,9 @@ button {
   width: 1.1111111111rem;
   height: 1.1111111111rem; }
 
+.social-link__svg {
+  fill: #B3B3B3; }
+
 .social-link__svg:hover * {
   fill: #000;
   transition: 0.3s; }
